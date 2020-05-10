@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
         box-sizing:border-box;
     }
     body{
-        background:#dee226;
+        background:#e31048;
         font-size:14px;
         padding:100px 0 0;
     }   
