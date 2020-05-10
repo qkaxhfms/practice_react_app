@@ -42,11 +42,11 @@ const ItemBox = styled.li`
 `;
 
 
-function Item(){
+function Item(id, done, text){
     return(
         <ItemBox>
-            <CheckCircle />
-            <Text />
+            <CheckCircle done={done}/>
+            <Text done={done}>{text}</Text>
             <Remove>
                 <MdDelete />
             </Remove>

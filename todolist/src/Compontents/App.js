@@ -3,6 +3,7 @@ import GlobalStyles from '../Styles/GlobalStyles';
 import TodoContainer from './TodoContainer';
 import Header from './Header';
 import List from './List';
+import Create from './Create';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <TodoContainer>
         <Header />
         <List />
+        <Create />
       </TodoContainer>
     </>
   );
